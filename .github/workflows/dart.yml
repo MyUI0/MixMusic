@@ -29,9 +29,6 @@ jobs:
         with:
           xcode-version: latest-stable
 
-      # 添加解决path库版本依赖冲突的步骤
-      - name: Resolve path dependency issue
-        run: flutter pub add path：^1.9.0
 
       - name: Install dependencies
         run: flutter pub get
