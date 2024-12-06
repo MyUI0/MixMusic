@@ -50,7 +50,7 @@ dependencies:
       url: https://github.com/Kavantix/sliver_tools
       ref: master
   #文件路径处理
-  path: ^1.9.1
+  path: ^1.9.0
   #json序列化
   dart_json_mapper: ^2.2.14
 
